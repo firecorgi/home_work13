@@ -8,9 +8,6 @@ require('config/config.php');
 use Entity\Article;
 use Service\ArticleManager;
 
-$title = $_POST['title'] ?? '';
-$text = $_POST['text'] ?? '';
-
 $manager = new ArticleManager();
 $manager->getById(14);
 
