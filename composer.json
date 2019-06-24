@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+      "DataBase\\":  "DataBase/",
+      "Entity\\": "Entity/",
+      "Service\\": "Service/",
+      "InterfaceManager\\": "Service/Interface/"
+    }
+  }
+}
